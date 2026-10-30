@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "atlib-telegram"
-version = "1.0.0"
+version = "1.0.1"
 description = "Advanced Telegram Bot Library — production-ready asynchronous framework for the official Telegram Bot API"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -46,9 +46,9 @@ full = ["redis>=5", "asyncpg>=0.29", "python-dotenv>=1.0", "starlette>=0.37"]
 atlib = "atlib.cli.main:main"
 
 [project.urls]
-Homepage = "https://github.com/atlib/atlib"
-Documentation = "https://github.com/atlib/atlib#readme"
-Repository = "https://github.com/atlib/atlib"
+Homepage = "https://github.com/rezamoradi-ux/ATLib"
+Documentation = "https://github.com/rezamoradi-ux/ATLib#readme"
+Repository = "https://github.com/rezamoradi-ux/ATLib"
 
 [tool.hatch.build.targets.wheel]
 packages = ["atlib"]
